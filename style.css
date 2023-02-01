@@ -50,12 +50,8 @@ th.dip {
     width: 2px;
 }
 @media screen and (max-width: 576px) {
-    .cards .card {
-      width: 100% !important;
-      margin-bottom: 1rem;
-    }
-    .cards .card:last-child {
-      margin-bottom: 0;
+    .grid-create{
+        grid-template-columns: repeat(1,120%);
     }
   }
 
