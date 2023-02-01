@@ -49,7 +49,7 @@ th.dip1 {
 th.dip {
     width: 2px;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 400px) {
     .grid-create{
         grid-template-columns: repeat(1,120%);
     }
